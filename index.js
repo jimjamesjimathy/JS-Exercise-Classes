@@ -169,6 +169,7 @@ class Student extends Lambdasian{
      this.previousBackground = attrKeys.previousBackground;
      this.className = attrKeys.className;
      this.favSubjects = attrKeys.favSubjects;
+     this.grade = attrKeys.grade;
    }// Methods go below this line
    listSubjects(){
      return `Loving ${this.favSubjects}`;
